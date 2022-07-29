@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8503C3DD2893DAD20016528E /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503C3DC2893DAD20016528E /* PetTableViewCell.swift */; };
+		8503C3DF2893DD360016528E /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503C3DE2893DD360016528E /* Pet.swift */; };
+		8503C3E12893E8E30016528E /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503C3E02893E8E30016528E /* ModelUser.swift */; };
 		854539432893D303001E7344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854539422893D303001E7344 /* AppDelegate.swift */; };
 		854539452893D303001E7344 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854539442893D303001E7344 /* SceneDelegate.swift */; };
 		854539472893D303001E7344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854539462893D303001E7344 /* ViewController.swift */; };
 		8545394A2893D303001E7344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854539482893D303001E7344 /* Main.storyboard */; };
 		8545394C2893D304001E7344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8545394B2893D304001E7344 /* Assets.xcassets */; };
 		8545394F2893D304001E7344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8545394D2893D304001E7344 /* LaunchScreen.storyboard */; };
+		854539572893D498001E7344 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854539562893D498001E7344 /* PetsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8503C3DC2893DAD20016528E /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		8503C3DE2893DD360016528E /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		8503C3E02893E8E30016528E /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
 		8545393F2893D303001E7344 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854539422893D303001E7344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854539442893D303001E7344 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		8545394B2893D304001E7344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8545394E2893D304001E7344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854539502893D304001E7344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854539562893D498001E7344 /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				854539442893D303001E7344 /* SceneDelegate.swift */,
 				854539462893D303001E7344 /* ViewController.swift */,
 				854539482893D303001E7344 /* Main.storyboard */,
+				8503C3DC2893DAD20016528E /* PetTableViewCell.swift */,
+				854539562893D498001E7344 /* PetsViewController.swift */,
+				8503C3DE2893DD360016528E /* Pet.swift */,
+				8503C3E02893E8E30016528E /* ModelUser.swift */,
 				8545394B2893D304001E7344 /* Assets.xcassets */,
 				8545394D2893D304001E7344 /* LaunchScreen.storyboard */,
 				854539502893D304001E7344 /* Info.plist */,
@@ -140,6 +152,10 @@
 			files = (
 				854539472893D303001E7344 /* ViewController.swift in Sources */,
 				854539432893D303001E7344 /* AppDelegate.swift in Sources */,
+				854539572893D498001E7344 /* PetsViewController.swift in Sources */,
+				8503C3DF2893DD360016528E /* Pet.swift in Sources */,
+				8503C3E12893E8E30016528E /* ModelUser.swift in Sources */,
+				8503C3DD2893DAD20016528E /* PetTableViewCell.swift in Sources */,
 				854539452893D303001E7344 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
